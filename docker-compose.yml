@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app-docker:
+    container_name: app-docker
+    hostname: app-docker
+    image: 
+    restart: always
+    ports:
+      - "3000:3000"
